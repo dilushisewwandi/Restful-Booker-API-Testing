@@ -29,18 +29,23 @@ This is a complete Postman collection designed to test the **Restful Booker API*
 
 ## 🔧 How to Use
 
-1. **Import the Collection**
-   - Download or clone this repo
-   - Open Postman → Import → Upload `Restful Booker API.postman_collection.json`
+### 1. 📁 Import the Collection
+- Download or clone this repo
+- Open Postman → Click **Import**
+- Upload `Restful Booker API.postman_collection.json`
 
-2. **Create an Environment**
-   - Variable: `base_url`
-   - Value: `https://restful-booker.herokuapp.com`
-   - Run the **Auth** request to store `{{token}}`
-   - Run the **Create Booking** request to store `{{bookingId}}`
+### 2. 🌐 Import the Environment
+- Download or import `Restful-Booker-Env.postman_environment.json` 
+- Or manually create an environment with:
+  - Variable: `base_url`
+  - Value: `https://restful-booker.herokuapp.com`
 
-3. **Run Each Request**
-   - Try `GET`, `PUT`, `PATCH`, and `DELETE` on the booking you created
+> Make sure this environment is **selected in the top-right** before running any requests.
+
+### 3. ▶️ Run the Collection
+- Start by running the **Auth** request to save the token
+- Then run **Create Booking** to save the `bookingId`
+- Use `GET`, `PUT`, `PATCH`, and `DELETE` on your created booking
 
 ---
 
@@ -50,3 +55,15 @@ This is a complete Postman collection designed to test the **Restful Booker API*
 - Understand **token authentication**
 - Automate test flows using **Postman scripts**
 - Use **Postman variables** to reuse and chain requests
+
+---
+
+## 🙌 Author
+
+**Dilushika Sewwandi**  
+[LinkedIn](https://www.linkedin.com/in/dilushikasewwandi) • [GitHub](https://github.com/dilushisewwandi)
+
+---
+
+> ⭐ If you found this project useful, feel free to give it a star or connect with me!
+
