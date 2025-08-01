@@ -50,5 +50,3 @@ This is a complete Postman collection designed to test the **Restful Booker API*
 - Understand **token authentication**
 - Automate test flows using **Postman scripts**
 - Use **Postman variables** to reuse and chain requests
-
----
